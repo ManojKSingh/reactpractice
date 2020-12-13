@@ -9,7 +9,7 @@ const Char = (props) => {
         border: "1px solid #000"
     }
     return (
-        <div  className={`boxes`} onClick={props.clicked}>
+        <div  className={style.boxes} onClick={props.clicked}>
             {props.value}
         </div>
     );
